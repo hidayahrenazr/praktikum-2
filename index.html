@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pertemuan 2 - HTML & CSS Lanjutan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>MEMBUAT TABEL</h1>
+    <p>Penduduk di Joga</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Kabupaten</th>
+                <th>Jumlah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sleman</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>MEMBUAT FORM</h1>
+    <p>Form Input Data Penduduk</p>
+    <form action="#">
+        <div>
+            <div>
+                <label for="namaKabupaten">Masukkan nama kabupaten:</label> <br>
+                <input type="text" name="namaKabupaten" id="namaKabupaten">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="jumlahPenduduk">Jumlah penduduk:</label> <br>
+                <input type="number" name="jumlahPenduduk" id="jumlahPenduduk">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="button" value="Simpan Data">
+            </div>
+        </div>
+    </form>
 </body>
 </html>
